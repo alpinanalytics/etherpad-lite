@@ -634,12 +634,12 @@
   "customLocaleStrings": {},
 
   /* Disable Admin UI tests */
-  "enableAdminUITests": false
+  "enableAdminUITests": false,
   
   "ep_openid_connect": {
     "issuer": "${OIDC_ISSUER}",
     "client_id": "${OIDC_CLIENT_ID}",
     "client_secret": "${OIDC_CLIENT_SECRET}",
-    "base_url": "${EP_BASEURL}"
-  },
+    "base_url": "${EP_BASE_URL}"
+  }
 }
